@@ -80,7 +80,6 @@ async def file_handler(event):
         f"`{link}`\n\n"
     )
 
-
 async def main():
     await bot.start(bot_token=BOT_TOKEN)
     print("OK. Bot is running...")
